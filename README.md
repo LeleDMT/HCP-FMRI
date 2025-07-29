@@ -23,6 +23,7 @@ Agreeableness may not robustly modulate DMN activity during Theory of Mind tasks
 
 
 # Files of the code
-- 
-
-
+- fMRI.ipynb : Computing the contrasts between the Theory of the Mind task (ToM) and a random condition. Run this first to give a csv file with the average contrast of 100 subjects for the Temporoparietal Junction (TPJ), the Medial Prefrontal Cortex (mPFC) and the Superior Temporal Sulcus (TCC)
+- HCP_personnality.ipynb : Concatenate the personnality data from hcp_behavior_unfiltered.csv with the average fMRI contrast to do GLM analysis
+- HCP_personnality_ML.ipynb : Exploratory analysis, using machine learning, to attempt predicting personnality traits of the Big Five (Agreableness, Openness, Neuroticism, Extraversion, and Conscientiousness) using our average contrast
+  - BONUS FILE (Thanks Abri) : voxelwise_task.ipynb uses the actual fMRI data (and not the timeseries that we had provided) to run the GLM analysis. It uses 100 participant of the HCP dataset. If you wanna download it on your machine, it's 200gb. Good luck!
